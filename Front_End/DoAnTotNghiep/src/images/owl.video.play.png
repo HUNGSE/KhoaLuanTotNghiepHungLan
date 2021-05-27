@@ -1,0 +1,42 @@
+<html><head></head><body><header>
+        <title>Lỗi 404 - Không Tìm Thấy Trang!</title>
+        <link rel="image_src" href="http://localhost/2019_bannha888/datafiles/setone/1554717596_1552716425_logo.png">
+        <link rel="shortcut icon" href="1554717596_1552716425_logo.png" type="image/x-icon">
+        <style>
+            * {margin: 0 auto; padding: 0; font-family: Arial}
+            .dv-err-404 { position: absolute; width: 100%; height: 100%; display: flex; align-items: center; }
+            .dv-err-404 .dv-gr .p-404 { font-size: 120px; color: #ffffff !important; text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); text-align: center; line-height: 170px; }
+            .dv-err-404 a { color: #137dd8; text-decoration: none; }
+            .dv-err-404 a:hover { color: red; }
+            .dv-err-404 .dv-gr > a { display: block; text-align: right; font-size: 13px; margin-top: 10px; }
+            .dv-coppy { font-size: 13px; text-align: center; width: 100%; margin-top: 100px; }
+            .dv-err-404 .dv-gr .p-404 a{color: #ffffff !important; }
+            .dv-err-404 .dv-gr { width: 900px; font-size: 13px; line-height: 25px; max-width: 90%; box-shadow: 0 0 50px #dedede; margin: 10px auto; padding: 20px 30px; border-radius: 0px; }
+        </style>
+    </header>
+    
+        <div class="dv-err-404">
+            <div class="dv-gr">
+                <p class="p-404"><a href="https://bannha888.com">404</a></p>
+                <p class="foot">Lỗi 404 - Không Tìm Thấy Trang!</p>
+                <div class="nd">
+                    <p>Chúng tôi không thể tìm thấy trang quý khách yêu cầu hoặc trang yêu cầu hiện tại không có sẵn. Nếu lỗi này xảy ra với mức độ thường xuyên, xin quý khách vui lòng thông báo cho chúng tôi biết về sự cố quý khách gặp, bằng cách gửi mail tới địa chỉ:&nbsp;<a href="mailto:info@bannha888.com">info@bannha888.com</a></p>
+
+<p><b>BANNHA888.COM</b><strong>&nbsp;</strong>hân hạnh được phục vụ quý khách!</p>                </div>
+                <a href="https://bannha888.com">Quay về trang chủ <span id="time_doi"></span></a>
+                <div class="dv-coppy">Copyright © 2019 Bản quyền thuộc về BANNHA888.COM</div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var time_doi = 15;
+            setInterval(function () {
+                time_doi--;
+                if(time_doi >= 0) {
+                document.getElementById("time_doi").innerHTML = "(" + time_doi + ")";
+                }
+                if (time_doi == 0) window.location.href = 'https://bannha888.com'
+            }, 1000);
+        </script>
+    
+
+</body></html>

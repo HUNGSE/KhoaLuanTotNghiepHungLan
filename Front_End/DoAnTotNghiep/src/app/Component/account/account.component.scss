@@ -1,0 +1,215 @@
+.pagewrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.page_conten_page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box_page,
+.box_left {
+    padding: 10px;
+    border-top: solid #f8f8f8 1px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    clear: both;
+    height: 100%;
+}
+
+.right_conten {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+.title_page_ip {
+    border-bottom: solid #2783c4 1px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+form {
+    display: block;
+}
+.title_page_ip h3 {
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #2783c4;
+    color: #fff;
+    float: left;
+    line-height: 40px;
+    position: relative;
+    padding-right: 40px;
+    padding-left: 25px;
+    z-index: 0;
+}
+h3 {
+    margin: 0;
+}
+.title_page_ip h3:before {
+    content: "";
+    border: solid 40px transparent;
+    border-bottom-color: #2783c4;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    z-index: 1;
+}
+.clr {
+    clear: both;
+}
+.no_box,
+.no_box * {
+    box-sizing: border-box;
+}
+.form-control {
+    display: block;
+    height: 45px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    padding: 0 10px;
+    resize: vertical;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Roboto Condensed", Arial, Helvetica, Tahoma, sans-serif;
+}
+.padding_pagewrap_2 {
+    padding: 0 5px;
+}
+.thogntin_canhan ul {
+    text-align: center;
+}
+ul {
+    padding: 0px;
+    margin-block-start: 1em;
+}
+.thogntin_canhan ul li {
+    list-style: none;
+    line-height: 0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.thogntin_canhan ul li img {
+    height: 120px;
+    width: auto;
+    border-radius: 50%;
+}
+img {
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+a.alink {
+    color: #2783c4;
+}
+.thogntin_canhan ul h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.thogntin_canhan ul p {
+    color: #333;
+    font-size: 17px;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+.thogntin_canhan ul p i {
+    padding-right: 10px;
+}
+p {
+   margin: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.thogntin_canhan ul p a {
+    color: #2783c4;
+}
+.thogntin_canhan ul h4 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+h4 {
+    margin: 0;
+}
+.menu_left_dangtin {
+    margin-bottom: 5px;
+}
+.menu_left_dangtin ul li {
+    list-style: none;
+    background: #eee;
+}
+.menu_left_dangtin ul li i
+{
+    padding-right: 10px;
+}
+.fa-id-card-o:before {
+    content: "\f2c3";
+}
+.menu_left_dangtin ul li a {
+    display: block;
+    list-style: none;
+    font-size: 17px;
+    color: #333;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-bottom: solid #ccc 1px;
+    -webkit-transition: all 0.2s ease-in-out;
+    font-weight: normal;
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.menu_left_dangtin ul li a:hover {
+    color: #fff;
+    background: #00bed5;
+}

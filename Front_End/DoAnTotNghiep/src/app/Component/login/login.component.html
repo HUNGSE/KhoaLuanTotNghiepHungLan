@@ -1,0 +1,50 @@
+<div class="dv-popup-new no_box acti">
+    <div class="dv-popup-new-child actiok" style="width: 455px;">
+        <button class ="Cancel"(click)="eXit()">x</button>
+        <div class="dv-nd-popup">
+            <form action="" method="post" name="dangnhap" id="dangnhap">
+                <div class="ungtuyen_popup">
+                    <div class="titBox left">
+                        <h3 class="tit_2">Thông Tin Đăng Nhập</h3>
+                    </div>
+                    <div class="col-md-4 row-frm">
+                        <input type="text" name="txt_email" class="form-control cls_data_check_form_check_dangky"
+                            data-rong="1" data-msso="Chưa nhập thông tin đăng nhập!"
+                            placeholder="Nhập tên tài khoản hoặc email (*)">
+                    </div>
+                    <div class="col-md-4 row-frm">
+                        <input type="password" name="txt_pass" id="txt_pass"
+                            class="form-control cls_data_check_form_check_dangky" data-rong="1"
+                            data-msso="Vui lòng nhập mật khẩu!" placeholder="Mật khẩu (*)">
+                    </div>
+                    <li class="bt-login">
+                        <a (click)="LOAD_popup_new()"
+                            class=" dk_dangnhap_1 quenmatkhau cur">Quên mật khẩu</a>
+                        <a (click)="LOAD_popup_new()"
+                            class="cur dk_dangnhap_2 ">Bạn chưa có tài khoản?</a>
+                        <div class="clr"></div>
+
+                    </li>
+
+                    <div class="box_dangnhap_popup">
+                        <h2><a class="cur" id="dangnhap" onclick="check_dangnhap()">Đăng Nhập <img
+                                    class="img_load_from_dktv" src=""></a></h2>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+                <div class="login_link">
+                    <ul>
+                        <h3 class="fb">
+                            <a href="https://bannha888.com/?login=fb"><i class="fa fa-facebook fa-fw"></i>Đăng nhập bằng
+                                facebook </a>
+                        </h3>
+                        <h3 class="google">
+                            <a href="https://bannha888.com/?login=google"><i class="fa fa-google fa-fw"></i>Đăng nhập
+                                bằng google</a>
+                        </h3>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
